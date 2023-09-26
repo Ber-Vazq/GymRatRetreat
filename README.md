@@ -4,7 +4,7 @@ Class Project for UI/UX design
 Scrum Master: Bernardo Vazquez
 
 Developers:
--Bernardo	Vazquez
+-Bernardo	Vazquez ([Ber-Vazq](https://github.com/Ber-Vazq)) (Scrum Master)
 -Marilyn Saenz
 -Roman Martinez
 -Samantha	Cantu
