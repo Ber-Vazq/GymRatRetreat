@@ -10,4 +10,4 @@ Developers:
 -Samantha	Cantu  <br />
 -Vannie	Nguyen  <br />
 
-We are going to be making an e-commerce website, based around selling training equipment, clothes, supplements, and other gym merchandise 
+We at GymRatRetreat will be making an e-commerce website, based around selling training equipment, clothes, supplements, and other gym merchandise 
