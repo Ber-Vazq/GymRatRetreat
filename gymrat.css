@@ -1,9 +1,22 @@
 h1{
     text-align: center;
+    color: aliceblue;
+    font-family: 'Tektur', cursive;
 }
 
 p{
+    color: aliceblue;
     text-align: center;
+    font-family: 'Tektur', cursive;
+}
+
+body{
+    background-image: url(./images/360_F_212084434_jMasarzhOH3lAUX7fdciGKD7ShTA9LQi.jpg);
+}
+
+.logo{
+    margin: auto;
+    padding-left: 5px;
 }
 
 .funny {
