@@ -2,13 +2,24 @@ let currentIndex = 0;
 const galleryItems = document.querySelectorAll('.gallery-item');
 
 function scrollGallery(direction) {
-    currentIndex += direction;
-    if (currentIndex < 0) {
-        currentIndex = galleryItems.length - 1;
-    } else if (currentIndex >= galleryItems.length) {
-        currentIndex = 0;
+    const galleryContainer = document.querySelector('.gallery-container');
+    const scrollAmount = 300;
+    const totalWidth = galleryContainer.scrollWidth;
+    const containerWidth = galleryContainer.clientWidth;
+    const maxScrollLeft = totalWidth - containerWidth;
+
+    if (direction === 1) {
+        galleryContainer.scrollLeft += scrollAmount; //scroll right
+        if (galleryContainer.scrollLeft >= maxScrollLeft) {
+            galleryContainer.scrollLeft = 0; //reset
+        }
+    } 
+    else if (direction === -1) {
+        galleryContainer.scrollLeft -= scrollAmount; // Scroll left
+        if (galleryContainer.scrollLeft <= 0) {
+            galleryContainer.scrollLeft = maxScrollLeft; //go to end if you reach beginning   
+        }
     }
-    updateGallery();
 }
 
 function updateGallery() {
