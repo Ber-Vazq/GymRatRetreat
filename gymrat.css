@@ -10,13 +10,13 @@ body {
   min-height: 100vh;
 }
 
-main{
-    flex: 1;
+main {
+  flex: 1;
 }
 
-footer{
-    text-align: center;
-    padding: 10px;
+footer {
+  text-align: center;
+  padding: 10px;
 }
 
 h1,
@@ -153,7 +153,7 @@ p {
   width: 100%;
   min-width: 800px;
   display: flex;
-  overflow-x:scroll;
+  overflow-x: scroll;
   transition: transform 0.3s ease;
   position: center; /* Add relative positioning to the container */
   margin-left: 20px;
@@ -180,8 +180,8 @@ p {
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .scroll-buttons {

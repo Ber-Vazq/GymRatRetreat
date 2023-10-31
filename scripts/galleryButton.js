@@ -13,7 +13,7 @@ function scrollGallery(direction) {
         if (galleryContainer.scrollLeft >= maxScrollLeft) {
             galleryContainer.scrollLeft = 0; //reset
         }
-    } 
+    }
     else if (direction === -1) {
         galleryContainer.scrollLeft -= scrollAmount; // Scroll left
         if (galleryContainer.scrollLeft <= 0) {
