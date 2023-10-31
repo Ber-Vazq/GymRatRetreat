@@ -200,3 +200,13 @@ p {
 .scroll-buttons.right {
   right: 10px;
 }
+
+.scroll-buttons.left2 {
+  left: 10px;
+  transform: translateY(500px);
+}
+
+.scroll-buttons.right2 {
+  right: 10px;
+  transform: translateY(500px);
+}
