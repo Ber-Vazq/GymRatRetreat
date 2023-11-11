@@ -1,0 +1,62 @@
+* {
+  font-family: "Tektur", cursive !important;
+  
+}
+
+body {
+  background-color: #242323;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  zoom: 90%;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.logo {
+  margin: auto;
+  padding-left: 5px;
+}
+
+.funny {
+  display: block;
+  margin: auto;
+}
+
+.checkout-button {
+
+  display: block;
+  margin:auto;
+  width: fit-content;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.checkout-button:hover{
+
+  background-color: #434343;
+
+}
+
+
+
+

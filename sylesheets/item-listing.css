@@ -1,0 +1,44 @@
+.item-listing {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(30, 30, 30);
+    max-width: 300px;
+    max-height: 600px;
+    min-width: 300px;
+    max-height: 600px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: arial;
+    zoom: 80%;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .item-listing button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+  }
+  
+  .scroll-container {
+    display: flex;
+    background-color: #4d4d4d;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 10px;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 10px;
+  }
+  
+  .scroll-container div {
+    padding: 10px;
+  }

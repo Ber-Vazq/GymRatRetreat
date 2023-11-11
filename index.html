@@ -13,386 +13,145 @@
     />
 
     <!--CSS LINK-->
-    <link rel="stylesheet" href="gymrat.css" />
-    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="./sylesheets/gymrat.css" />
+    <link rel="stylesheet" href="./sylesheets/gallary.css" />
+    <link rel="stylesheet" href="./sylesheets/item-listing.css" />
+    <link rel="stylesheet" href="./sylesheets/top-nav.css" />
+
   </head>
 
   <body id="frontpage">
-    <nav class="navi">
-      <!--this one is self explanatory but it's the logo-->
-      <div class="logo">
-        <img src="./images/grr_alt-removebg.png" width="200" height="150" />
-      </div>
-
-      <!--MENUS-->
-      <div class="menu">
-        <div class="btn"><a href="./index.html">Home</a></div>
-        <div class="btn"><a href="./index.html">Browse</a></div>
-        <div class="btn"><a href="./sections/about.html">About</a></div>
-      </div>
-    </nav>
-
+    
+    <header class="header">
+      <img class= "logo" src="./images/grr_alt-removebg.png" width="200" height="150" />
+        <ul class="main-nav">
+        <li>
+          
+          <div class="search-container">
+            <form action="">
+              <input type="text" placeholder="Search For an Item.." name="search">
+              <!-- <button type="submit"></button> -->
+              <a class="temp-searchbutton" href="search.html">Go</a> 
+              <!-- just for navigation puposes -->
+            </form>
+          </div>
+      
+      </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Account Settings</a></li>
+            <li><a href="login.html">Login/Signup</a></li>
+            
+        </ul>
+    </header> 
+  
 
     <h1>Featured Items</h1>
 
     <div class="gallery-container">
-      <div class="scroll-buttons left" onclick="scrollGallery(-1)">
+      <div class="scroll-buttons left" onclick="scrollGallery(1)">
         &#10094;
       </div>
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 1" />
-        <h2>Product 1</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
+        <div class="scroll-container">
+          <div class="item-listing">
+            <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Product Listing</h1>
+            <p class="price">$19.99</p>
+            <p><button>Product Listing</button></p>
+          </div><div class="item-listing">
+            <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Product Listing</h1>
+            <p class="price">$19.99</p>
+            <p><button>Product Listing</button></p>
+          </div><div class="item-listing">
+            <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+            <h1>Product Listing</h1>
+            <p class="price">$19.99</p>
+            <p><button>Product Listing</button></p>
+          </div>
         </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 2" />
-        <h2>Product 2</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 23" />
-        <h2>Product 23</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 26" />
-        <h2>Product 26</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 1" />
-        <h2>Product 1</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 2" />
-        <h2>Product 2</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 23" />
-        <h2>Product 23</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 26" />
-        <h2>Product 26</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 1" />
-        <h2>Product 1</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 2" />
-        <h2>Product 2</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 23" />
-        <h2>Product 23</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 26" />
-        <h2>Product 26</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 3" />
-        <h2>Product 3</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 4" />
-        <h2>Product 4</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 5" />
-        <h2>Product 5</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 6" />
-        <h2>Product 6</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="scroll-buttons right" onclick="scrollGallery(1)">
+      <div class="scroll-buttons right" onclick="scrollGallery(-1)">
         &#10095;
       </div>
-    </div>
+    <div class="gallery-container"></div>
+
 
     <h1>Shopping Cart</h1>
 
-    <div class="gallery-container">
-
-        <div class="scroll-buttons left" onclick="scrollGallery(1)">
-            &#10094;
-          </div>
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 1" />
-        <h2>Product 1</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+    <div class="scroll-container">
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 2" />
-        <h2>Product 2</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 3" />
-        <h2>Product 3</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 4" />
-        <h2>Product 4</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 5" />
-        <h2>Product 5</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 6" />
-        <h2>Product 6</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 4" />
-        <h2>Product 4</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 5" />
-        <h2>Product 5</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 6" />
-        <h2>Product 6</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 4" />
-        <h2>Product 4</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 5" />
-        <h2>Product 5</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
+      <div class="item-listing">
+        <img src="images/image.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>Product Listing</h1>
+        <p class="price">$19.99</p>
+        <p><button>Remove From Cart</button></p>
       </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 6" />
-        <h2>Product 6</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 4" />
-        <h2>Product 4</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
+      
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 5" />
-        <h2>Product 5</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
 
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 6" />
-        <h2>Product 6</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 4" />
-        <h2>Product 4</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 5" />
-        <h2>Product 5</h2>
-        <p>a weight</p>
-        <p>Price: $100.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="./images/image.jpg" alt="Prod 6" />
-        <h2>Product 6</h2>
-        <p>a weight</p>
-        <p>Price: $150.00</p>
-        <div class="button-container">
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="scroll-buttons right" onclick="scrollGallery(1)">
-        &#10095;
-      </div>
+    
     </div>
+<button class="checkout-button">Checkout Items</button>
+      
+      
+    
 
-    <div class="menu">
-        <div class="btn"><a href="">Checkout</a></div>
-        </div>
+
     
 
     <footer>
