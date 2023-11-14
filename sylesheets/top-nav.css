@@ -1,12 +1,12 @@
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .logo {
 	margin: 0;
-	
+
 }
 
 .main-nav {
@@ -30,49 +30,49 @@ ul {
 	color: #718daa;
 }
 
-.main-nav div{
+.main-nav div {
 
-  display: none;
+	display: none;
 
 }
 
 .main-nav input[type=text] {
-  padding: 6px;
-  margin-top: 15px;
-  font-size: 17px;
-  border: none;
+	padding: 6px;
+	margin-top: 15px;
+	font-size: 17px;
+	border: none;
 }
 
 
 .main-nav .search-container button {
-  
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-
-  
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.main-nav .search-container button:hover {
-  background: #ccc;
-}
-
-.temp-searchbutton{
 
 	padding: 6px 10px;
 	margin-top: 8px;
 	margin-right: 16px;
-  
-	
+
+
 	background: #ddd;
 	font-size: 17px;
 	border: none;
 	cursor: pointer;
-  }
+}
+
+.main-nav .search-container button:hover {
+	background: #ccc;
+}
+
+.temp-searchbutton {
+
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+
+
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
 
 
 
@@ -93,38 +93,40 @@ ul {
 
 
 @media (min-width: 769px) {
+
 	.header,
 	.main-nav {
 		display: flex;
 	}
-  .main-nav div{
 
-    display: flex;
-    margin-left: 10px;
-  
-  }
-  
+	.main-nav div {
+
+		display: flex;
+		margin-left: 10px;
+
+	}
+
 
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-	}
+}
 
 }
 
 @media (min-width: 1025px) {
 
-  .main-nav div{
+	.main-nav div {
 
-    display: flex;
-    margin-left: 10px;
-  
-  }
+		display: flex;
+		margin-left: 10px;
+
+	}
+
 	.header {
 		flex-direction: row;
 		justify-content: space-between;
