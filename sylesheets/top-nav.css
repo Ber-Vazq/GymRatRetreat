@@ -62,14 +62,11 @@ ul {
 }
 
 .temp-searchbutton {
-
 	padding: 6px 10px;
 	margin-top: 8px;
 	margin-right: 16px;
-
-
 	background: #ddd;
-	font-size: 17px;
+	font-size: 12px;
 	border: none;
 	cursor: pointer;
 }
@@ -115,9 +112,6 @@ ul {
 		max-width: 1150px;
 	}
 }
-
-}
-
 @media (min-width: 1025px) {
 
 	.main-nav div {
