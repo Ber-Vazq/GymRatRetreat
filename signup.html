@@ -18,55 +18,60 @@
     <link rel="stylesheet" href="./sylesheets/item-listing.css" />
     <link rel="stylesheet" href="./sylesheets/top-nav.css" />
     <link rel="stylesheet" href="./sylesheets/login-signup.css" />
-
+    
   </head>
 
   <body id="frontpage">
-    
     <header class="header">
-      <img class= "logo" src="./images/grr_alt-removebg.png" width="200" height="150" />
-        <ul class="main-nav">
+      <img
+        class="logo"
+        src="./images/grr_alt-removebg.png"
+        width="200"
+        height="150"
+      />
+      <ul class="main-nav">
         <li>
-          
           <div class="search-container">
-            <form action="/action_page.php">
-              <input type="text" placeholder="Search For an Item.." name="search">
-              <button type="submit">Go</button>
-            </form>
+            <input
+              type="text"
+              id="query"
+              placeholder="Search For an Item.."
+              name="search"
+            />
+            <button type="submit" onClick="submitForm()">Go</button>
           </div>
-      
-      </li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Account Settings</a></li>
-            <li><a href="login.html">Login/Signup</a></li>
-            <li><a href="cart.html">Cart</li> 
-        </ul>
-    </header> 
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="account.html">Account Settings</a></li>
+        <li><a href="login.html">Login/Signup</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </header>
 
     <div class="login-form">
       <form>
         <h1>Sign Up</h1>
         <div class="content">
           <div class="input-field">
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" />
           </div>
           <div class="input-field">
-            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Password" />
           </div>
-          
         </div>
         <div class="action">
-            <a>Sign Up</a>
-            <a href="./login.html">Log In</a>
+          <a>Sign Up</a>
+          <a href="./login.html">Log In</a>
         </div>
       </form>
     </div>
 
-    
     <footer>
-        <p>2023 no rights reserved, I haven't trademarked anything</p>
+      <p>2023 no rights reserved, I haven't trademarked anything</p>
     </footer>
 
-  
+    <!-- jsscripts -->
+    <script src="scripts/searchContainer.js"></script>
+
   </body>
 </html>

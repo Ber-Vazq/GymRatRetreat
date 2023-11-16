@@ -1,0 +1,47 @@
+#search-results {
+    margin:auto;
+    border-collapse: collapse;
+    color:black;
+    background-color: #454545;
+    width: 90%;
+    
+  }
+  
+  #search-results td, #search-results th {
+    padding: 8px;
+  }
+
+  #search-results img{
+    
+    width:100%;
+    max-width:200px;
+    
+  }
+  
+  #search-results tr:nth-child(even){background-color:#343434;}
+  
+  #search-results tr:hover {background-color: #3a3a3a;}
+  
+  #search-results th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #612c76;
+    color: white;
+  }
+
+ 
+  .search {
+
+    display: block;
+    font-size: 15px;
+    margin: auto;
+
+  }
+
+    #search-results {
+       font-size: x-large;
+
+  }
+
+  
