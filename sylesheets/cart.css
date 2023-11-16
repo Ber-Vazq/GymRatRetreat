@@ -10,6 +10,7 @@
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 20px;
+    padding-bottom: 15px;
 }
 
 .cart_header {
@@ -24,14 +25,12 @@
 
 .heading {
     font-size: 20px;
-    font-family: ‘Open Sans’;
     font-weight: 700;
     color: #2F3841;
 }
 
 .action {
     font-size: 14px;
-    font-family: ‘Open Sans’;
     font-weight: 600;
     color: #E44C4C;
     cursor: pointer;
@@ -50,17 +49,19 @@
 .image-box {
     width: 15%;
     text-align: center;
-}
-
-.about {
-    height: 100%;
+    margin-bottom: 10px;
+    /* Adjust spacing between images */
+    border-radius: 5px;
+    /* Add border-radius for rounding */
+    overflow: hidden;
+    /* Ensure rounded corners are visible */
 }
 
 .title {
-    padding-top: 5px;
+    padding-top: 2px;
+    /* Adjusted padding to reduce the gap */
     line-height: 10px;
     font-size: 32px;
-    font-family: ‘Open Sans’;
     font-weight: 800;
     color: #202020;
 }
@@ -68,12 +69,14 @@
 .subtitle {
     line-height: 10px;
     font-size: 18px;
-    font-family: ‘Open Sans’;
     font-weight: 600;
     color: #909090;
 }
 
-.counter {
+/* Remove duplicated styles */
+.counter,
+.btn,
+.count {
     width: 15%;
     display: flex;
     justify-content: space-between;
@@ -89,7 +92,6 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    font-family: ‘Open Sans’;
     font-weight: 900;
     color: #202020;
     cursor: pointer;
@@ -97,40 +99,61 @@
 
 .count {
     font-size: 20px;
-    font-family: ‘Open Sans’;
     font-weight: 900;
     color: #202020;
 }
 
-.counter {
-    width: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #d9d9d9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-family: ‘Open Sans’;
-    font-weight: 900;
-    color: #202020;
-    cursor: pointer;
-}
-
-.count {
-    font-size: 20px;
-    font-family: ‘Open Sans’;
-    font-weight: 900;
-    color: #202020;
-}
 .item-container .cart-items .image-box {
-    margin-bottom: 45px;
+    margin-bottom: 10px;
     border-radius: 5px;
+}
+
+hr {
+    width: 66%;
+    float: right;
+    margin-right: 5%;
+}
+
+.checkout {
+    float: right;
+    margin-right: 5%;
+    width: 28%;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subtotal {
+    font-size: 22px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.items {
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+    line-height: 10px;
+}
+
+.total-amount {
+    font-size: 36px;
+    font-weight: 900;
+    color: #202020;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #202020;
 }
