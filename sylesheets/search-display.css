@@ -1,9 +1,9 @@
 #search-results {
-    margin:auto;
+    
     border-collapse: collapse;
     color:black;
     background-color: #454545;
-    width: 90%;
+    width: 100%;
     
   }
   
@@ -30,14 +30,16 @@
     color: white;
   }
 
- 
-  .search {
+
+  .center{
 
     display: block;
-    font-size: 15px;
-    margin: auto;
+    justify-content: center;
+    width: 90%;
+    margin:auto;
 
   }
+
 
     #search-results {
        font-size: x-large;

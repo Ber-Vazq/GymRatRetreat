@@ -18,33 +18,40 @@
     <link rel="stylesheet" href="./sylesheets/item-listing.css" />
     <link rel="stylesheet" href="./sylesheets/top-nav.css" />
     <link rel="stylesheet" href="./sylesheets/login-signup.css" />
+    <link rel="stylesheet" href="./sylesheets/checkout.css" />
+
 
   <body id="frontpage">
     <header class="header">
-      <img
-        class="logo"
-        src="./images/grr_alt-removebg.png"
-        width="200"
-        height="150"
-      />
-      <ul class="main-nav">
-        <li>
-          <div class="search-container">
-            <input
-              type="text"
-              id="query"
-              placeholder="Search For an Item.."
-              name="search"
-            />
-            <button type="submit" onClick="submitForm()">Go</button>
-          </div>
-        </li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="account.html">Dashboard</a></li>
-        <li><a href="login.html">Login/Signup</a></li>
-        <li><a href="cart.html">Cart</a></li>
-      </ul>
+        <h1>Checkout</h1>
     </header>
+
+
+    <div class="checkout-body">
+        <div>
+            <h2>Shipping Address</h2><br>
+            <input placeholder="Type Address"></input><br>
+            
+            <h2>Payment Method</h2><br>
+            <input placeholder="Payment Method"></input><br>
+        </div>
+
+        <div>
+
+            <h2>Order Summary:</h2><br>
+            <h2>Subtotal: $#</h2><br>
+            <h2>Shipping and Handling: $#</h2><br>
+            <h2>Total: $#</h2>
+
+        </div>
+        <div>
+
+            <a>Go Back To Cart</a>
+            <a>Complete Purchase</a>
+
+        </div>
+    </div>
+
 
     <footer>
       <p>2023 no rights reserved, I haven't trademarked anything</p>
