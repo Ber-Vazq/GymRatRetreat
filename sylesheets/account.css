@@ -1,0 +1,89 @@
+/* account.css */
+
+body {
+    font-family: 'Tektur', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .main-nav {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .search-container {
+    margin-top: 10px;
+  }
+  
+  #query {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .account-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-info p {
+    margin: 10px 0;
+  }
+  
+  .account-actions {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
