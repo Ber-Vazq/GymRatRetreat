@@ -1,0 +1,32 @@
+#issueList {
+    
+    margin: 65px auto;
+}
+
+#issueList #issueInfo {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    width: 400px;
+    height: 200px;
+}
+
+#issueList #requestBtn {
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#issueList #requestBtn button:hover {
+    background-color: #7a7a7a;
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}

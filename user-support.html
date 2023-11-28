@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="./sylesheets/item-listing.css" />
     <link rel="stylesheet" href="./sylesheets/top-nav.css" />
     <link rel="stylesheet" href="./sylesheets/login-signup.css" />
-    <link rel="stylesheet" href="./sylesheets/account.css"
+    <link rel="stylesheet" href="./sylesheets/account.css"/>
+    <link rel="stylesheet" href="./sylesheets/customer-support.css"/>
 
   <body id="frontpage">
     <header class="header">
@@ -36,19 +37,23 @@
       </ul>
     </header>
 
-    <h2>Customer Support</h2>
+    <h1>Customer Support</h1>
 
-      <div>
+      <div id="issueList">
             <label for="category-filter">Your Issue: </label>
             <select id="category-filter">
             <option value="site">Site</option>
             <option value="shipping">Shipping</option>
             <option value="invoices">Invoices</option>
+            <option value="products">Products</option>
+            <option value="support">Customer Support</option>
+            <option value="other">Other</option>
+
             </select>
             <br>
-            <textarea></textarea>
+            <textarea id="issueInfo" ></textarea>
             <br>
-            <button>Submit</button>
+            <button id="requestBtn">Submit</button>
         </div>
 
     <footer>
