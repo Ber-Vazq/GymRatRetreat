@@ -1,0 +1,27 @@
+#account-container {
+  text-align: center;
+  width: 500px;
+  margin: 65px auto;
+  padding: 20px;
+  color: black;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  margin: 80px 0;
+}
+
+#account-container a {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#account-container a:hover {
+  background-color: #7a7a7a;
+}

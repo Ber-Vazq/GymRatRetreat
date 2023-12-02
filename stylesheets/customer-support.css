@@ -1,5 +1,7 @@
 #issueList {
     
+    display:block;
+    text-align: center;
     margin: 65px auto;
 }
 
@@ -26,7 +28,3 @@
     background-color: #7a7a7a;
 }
 
-h1 {
-    margin: 20px auto;
-    text-align: center;
-}

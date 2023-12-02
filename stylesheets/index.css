@@ -1,0 +1,35 @@
+* {
+    font-family: "Tektur", cursive !important;
+    
+  }
+  
+  body {
+    background-color: #242323;
+    color: aliceblue;
+    margin: 0;
+    zoom: 90%;
+  }
+  
+  
+  .default-button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+  }
+  
+  .default-button:hover{
+  
+    background-color: #434343;
+  
+  }
+  
+  
+  
+  
+  

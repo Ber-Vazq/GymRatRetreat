@@ -2,13 +2,14 @@
     
     border-collapse: collapse;
     color:black;
-    background-color: #454545;
+    background-color: #848484;
     width: 100%;
     
   }
   
   #search-results td, #search-results th {
     padding: 8px;
+    cursor: pointer;
   }
 
   #search-results img{
@@ -18,15 +19,16 @@
     
   }
   
-  #search-results tr:nth-child(even){background-color:#343434;}
+  #search-results tr:nth-child(even){background-color:#dadada;}
   
-  #search-results tr:hover {background-color: #3a3a3a;}
+  #search-results tr:hover {background-color: #6f5151;}
   
   #search-results th {
+
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #612c76;
+    background-color: #383838;
     color: white;
   }
 

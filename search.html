@@ -23,8 +23,6 @@
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-    
-
 
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
   </head>
@@ -38,26 +36,22 @@
         height="150"
       />
       <ul class="main-nav">
-  
-  
         <li><a href="index.html">Home</a></li>
         <li><a href="account.html">Dashboard</a></li>
         <li><a href="login.html">Login/Signup</a></li>
         <li><a href="cart.html">Cart</a></li>
       </ul>
     </header>
-<div class="center">
-    <div>
-      <label for="category-filter">Filter by Category:</label>
-      <select id="category-filter">
-        <option value="">All Categories</option>
-        <option value="supplement">Supplement</option>
-        <option value="clothing">Clothing</option>
-      </select>
-    </div>
+    <div class="center">
+      <div>
+        <label for="category-filter">Filter by Category:</label>
+        <select id="category-filter">
+          <option value="">All Categories</option>
+          <option value="supplement">Supplement</option>
+          <option value="clothing">Clothing</option>
+        </select>
+      </div>
 
-
-    
       <table id="search-results" class="display">
         <thead>
           <tr>
@@ -69,13 +63,13 @@
         </thead>
         <tbody>
           <tr>
-            <td><img src="images/image.jpg"></td>
+            <td><img src="images/image.jpg" /></td>
             <td>19.99</td>
             <td>Fitness Stuff</td>
             <td>Supplements</td>
           </tr>
           <tr>
-            <td><img src="images/image.jpg"></td>
+            <td><img src="images/image.jpg" /></td>
             <td>15.99</td>
             <td>Fitness Stuff</td>
             <td>Clothing</td>
@@ -92,15 +86,15 @@
     <script src="scripts/searchContainer.js"></script>
 
     <script>
-    $(document).ready(function () {
-      var dataTable = new DataTable('#search-results');
+      $(document).ready(function () {
+        var dataTable = new DataTable('#search-results');
 
-      $('#category-filter').on('change', function () {
-        var selectedCategory = $(this).val();
+        $('#category-filter').on('change', function () {
+          var selectedCategory = $(this).val();
 
-        dataTable.column(3).search(selectedCategory).draw();
+          dataTable.column(3).search(selectedCategory).draw();
+        });
       });
-    });
     </script>
   </body>
 </html>

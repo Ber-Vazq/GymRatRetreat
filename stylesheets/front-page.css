@@ -12,11 +12,13 @@
   }
   
   .price {
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: grey;
     font-size: 22px;
   }
   
-  .item-listing button {
+  .item-listing a{
     border: none;
     outline: 0;
     padding: 12px;
@@ -24,15 +26,20 @@
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 80%;
+    width: 100%;
     font-size: 18px;
+  }
+
+  .item-listing a:hover{
+    background-color: #434343;
+
   }
   
   .scroll-container {
     display: flex;
     background-color: #4d4d4d;
-    overflow-x: scroll;
     white-space: nowrap;
+    overflow: auto;
     padding: 10px;
     margin-left: 6em;
     margin-right: 6em;
