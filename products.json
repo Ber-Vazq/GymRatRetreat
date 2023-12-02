@@ -1,10 +1,32 @@
 [
     {
-      "name": "Item 1",
-      "description": "This is the first item.",
-      "sourceimg":"",
-      "price": 10.99
-    }
+        "name": "Item 1",
+        "description": "This is the first item.",
+        "category":"miscellaneous",
+        "isFeatured":"1",
+        "inCart":"1",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+    },
+    {
+        "name": "Item 1",
+        "description": "This is the first item.",
+        "category":"miscellaneous",
+        "isFeatured":"1",
+        "inCart":"1",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      }, 
+      
+      {
+        "name": "Item 1",
+        "description": "This is the first item.",
+        "category":"miscellaneous",
+        "isFeatured":"1",
+        "inCart":"0",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      }
 
 
   ]

@@ -9,68 +9,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
-      rel="stylesheet"
-    />
-
+      rel="stylesheet"/>
+   
     <!--CSS LINK-->
-    <link rel="stylesheet" href="./sylesheets/gymrat.css" />
-    <link rel="stylesheet" href="./sylesheets/gallary.css" />
-    <link rel="stylesheet" href="./sylesheets/item-listing.css" />
-    <link rel="stylesheet" href="./sylesheets/top-nav.css" />
-    <link rel="stylesheet" href="./sylesheets/login-signup.css" />
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <link rel="stylesheet" href="./stylesheets/navbar.css">
+    <link rel="stylesheet" href="./stylesheets/login-signup.css">
+    
+
   </head>
 
-  <body id="frontpage">
-    <header class="header">
-      <img
-        class="logo"
-        src="./images/grr_alt-removebg.png"
-        width="200"
-        height="150"
-      />
-      <ul class="main-nav">
-        <li>
-          <div class="search-container">
-            <input
-              type="text"
-              id="query"
-              placeholder="Search For an Item.."
-              name="search"
-            />
-            <button type="submit" onClick="submitForm()">Go</button>
-          </div>
-        </li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="account.html">Dashboard</a></li>
-        <li><a href="login.html">Login/Signup</a></li>
-        <li><a href="cart.html">Cart</a></li>
-      </ul>
-    </header>
+    <body>
 
-    <div class="login-form">
-      <form>
-        <h1>Login</h1>
-        <div class="content">
-          <div class="input-field">
-            <input type="email" placeholder="Email" />
-          </div>
-          <div class="input-field">
-            <input type="password" placeholder="Password" />
-          </div>
+        <header id="navbar"></header>
+
+        <div class="login-form">
+
+            <h1 id="login-signup-header">Sign Up</h1>
+            <form>
+              <div class="content">
+                <div class="input-field">
+                    <input type="text" placeholder="Username" />
+                  </div>
+                <div class="input-field">
+                  <input type="email" placeholder="Email" />
+                </div>
+                <div class="input-field">
+                  <input type="password" placeholder="Password" />
+                </div>
+              </div>
+              <div class="action">
+                <button>Sign Up</button>
+                <button>Log In</button>
+              </div>
+            </form>
         </div>
-        <div class="action">
-          <a href="./signup.html">Sign Up</a>
-          <a>Log In</a>
-        </div>
-      </form>
-    </div>
+      
+        
+        <footer style ="text-align: center;">
+            <p>2023 no rights reserved, I haven't trademarked anything</p>
+        </footer>
+        <!-- jsscripts -->
+        <script src="components/navbar.js"></script>
+        <script src="scripts/loginsignup.js"></script>
+        <script src="scripts/searchbutton.js"></script>
 
-    <footer>
-      <p>2023 no rights reserved, I haven't trademarked anything</p>
-    </footer>
+            
 
-    <!-- jsscripts -->
-    <script src="scripts/searchContainer.js"></script>
-    
-  </body>
+        
+
+    </body>
+
 </html>

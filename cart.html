@@ -1,102 +1,46 @@
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="view" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to the Retreat</title>
+    <title>Dashboard</title>
 
     <!--FONT TIME-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
+      rel="stylesheet"
+    />
 
     <!--CSS LINK-->
-    <link rel="stylesheet" href="./sylesheets/gymrat.css" />
-    <link rel="stylesheet" href="./sylesheets/item-listing.css" />
-    <link rel="stylesheet" href="./sylesheets/top-nav.css" />
-    <link rel="stylesheet" href="./sylesheets/cart.css">
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link rel="stylesheet" href="./stylesheets/cart.css" />
+  </head>
 
-    
+  <body>
+    <header id="navbar"></header>
 
-</head>
-
-<body id="frontpage">
-
-    <header class="header">
-        <img class="logo" src="./images/grr_alt-removebg.png" width="200" height="150" />
-        <ul class="main-nav">
-            <li>
-                <div class="search-container">
-                    <input type="text" id="query"placeholder="Search For an Item.." name="search">
-                    <button type="submit" onClick="submitForm()">Go</button>
-                </div>
-            </li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="account.html">Dashboard</a></li>
-            <li><a href="login.html">Login/Signup</a></li>
-            <li><a href="cart.html">Cart</a></li>
-        </ul>
-    </header>
-
+    <h1 style="text-align: center;">Shopping Cart</h1>
     <div id="shopping-cart" class="item-container">
         <div class="cart-header">
-            <h2>Cart</h2>
-            <a href="">Remove All<a>
+            <a "href="">Remove All<a>
         </div>
-        <div class="cart-items">
-            <div class="image-box">
-                <img src="./images/image.jpg" style="height: 120px;">
-            </div>
-            <div>
-                <h1 class="title">Weight</h1>
-                <h3 class="subtitle">45lbs</h3>
-            </div>
-            <div class="counter">
-                <button class="btn">+</button>1<button class="btn">-</button>
-            </div>
-            <div>
-                $40.99<br>
-                <u>Save For Later</u><br>
-                <u>Remove</u><br>
-            </div>
-        </div>
-
+    </div>
     
-        <div class="cart-items">
-            <div class="image-box">
-                <img src="./images/image.jpg" style="height: 120px;">
-            </div>
-            <div>
-                <h1 class="title">Weight</h1>
-                <h3 class="subtitle">45lbs</h3>
-            </div>
-            <div class="counter">
-                <button class="btn">+</button>1<button class="btn">-</button>
-            </div>
-            <div>
-                $40.99<br>
-                <u>Save For Later</u><br>
-                <u>Remove</u><br>
-            </div>
-        </div>
-        
-        <hr>
-        <div>
-            Sub-Total<br>
-            2 items<br>
-            $81.98<br>
-            <button>Checkout</button>
-        </div>
-    </div>
+    <div style="text-align: center; margin: 20px;"">
+    <div id="total-div"></div>
+    <Button><a href="checkout.html">Proceed to Checkout</a></Button>
     </div>
 
-    <footer>
+    <footer style="text-align: center">
         <p>2023 no rights reserved, I haven't trademarked anything</p>
       </footer>
-<!-- jsscripts -->
-<script src="scripts/searchContainer.js"></script>
+    <!-- jsscripts -->
+    <script src="scripts/loadcart.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="scripts/searchbutton.js"></script>
 
-</body>
 
-
+  </body>
 </html>

@@ -9,91 +9,82 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
-      rel="stylesheet"
-    />
-
+      rel="stylesheet"/>
+   
     <!--CSS LINK-->
-    <link rel="stylesheet" href="./sylesheets/gymrat.css" />
-    <link rel="stylesheet" href="./sylesheets/top-nav.css" />
-    <link rel="stylesheet" href="./sylesheets/product-page.css" />
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <link rel="stylesheet" href="./stylesheets/navbar.css">
+    <link rel="stylesheet" href="./stylesheets/product-page.css">
+
+  </head>
+
+    <body>
+
+    <header id="navbar"></header>
 
 
-  
-    <header class="header">
-      <img class="logo" src="./images/grr_alt-removebg.png" width="200" height="150" />
-      <ul class="main-nav">
-          <li>
-              <div class="search-container">
-                  <input type="text" id="query"placeholder="Search For an Item.." name="search">
-                  <button type="submit" onClick="submitForm()">Go</button>
-              </div>
-          </li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="account.html">Dashboard</a></li>
-          <li><a href="login.html">Login/Signup</a></li>
-          <li><a href="cart.html">Cart</a></li>
-      </ul>
-    </header>
+    <div id="page-grid">
+        <div id="product-img">
+            <img src="images/image.jpg"></img>
+        </div>
+    
+        <div id="product-review">
+    
+            <label for="sortby-filter">Sort-By: </label>
+            <select id="sortby-filter">
+            <option value="rating">Rating</option>
+            <option value="relevance">relevance</option>
+            </select>
+    
+            <button data-open-modal>Write Review</button>
 
-   <body id="product-page"> 
-
-    <div id="product-img">
-        <img src="images/image.jpg"></img>
-    </div>
-
-    <div id="product-review">
-
-        <label for="sortby-filter">Sort-By: </label>
-        <select id="sortby-filter">
-        <option value="rating">Rating</option>
-        <option value="relevance">relevance</option>
-        </select>
-
-
-        <button data-open-modal>Write Review</button>
-
-        <dialog data-modal>
-
-            <textarea placeholder="Tell us what you think!"></textarea>
-            <button data-close-modal>Close</button>
-
-        </dialog>
-
-        <p class="review">--User: This is an Example Review<p>
-
-    </div>
-
-
-
-    <div id="product-overview">
-        <h2>Product Name</h2>
-        <h3>Cost:$</h3>
-        <button>Add to Cart</button>
-        <br><br>
-
-        <h2>Description:</h2>
-        <p class="review">--this is some test description wow!<p>
+            <dialog data-modal>
+    
+                <textarea placeholder="Tell us what you think!"></textarea>
+                <button data-close-modal>Close</button>
+    
+            </dialog>
+    
+            <p class="review">--User: This is an Example Review<p>
+    
+        </div>
     
     
-    </div>
-
- 
-    <script>
-
-    const openButton = document.querySelector("[data-open-modal]");
-    const closeButton = document.querySelector("[data-close-modal]");
-    const modal = document.querySelector("[data-modal]");
-
-    openButton.addEventListener("click", () => {
-        modal.show();
-    })
-    closeButton.addEventListener("click", () => {
-        modal.close();
-    })
     
+        <div id="product-overview">
+            <h2>Product Name</h2>
+            <h3>Cost:$</h3>
+            <button>Add to Cart</button>
+            <br><br>
+    
+            <h2>Description:</h2>
+            <p class="review">--this is some test description wow!<p>
+        
+        </div>
+        </div>
+        
+        <footer style ="text-align: center;">
+            <p>2023 no rights reserved, I haven't trademarked anything</p>
+        </footer>
+        <!-- jsscripts -->
+        <script src="components/navbar.js"></script>
+        <script src="scripts/searchbutton.js"></script>
 
-  </script>
-  </body>
+        <script>
 
+            const openButton = document.querySelector("[data-open-modal]");
+            const closeButton = document.querySelector("[data-close-modal]");
+            const modal = document.querySelector("[data-modal]");
+        
+            openButton.addEventListener("click", () => {
+                modal.show();
+            })
+            closeButton.addEventListener("click", () => {
+                modal.close();
+            })
+            
+        
+          </script>
+    </body>
 
 </html>
