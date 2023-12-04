@@ -9,20 +9,190 @@
         "price": 10.99
     },
     {
-        "name": "Item 1",
-        "description": "This is the first item.",
+        "name": "Item 2",
+        "description": "This is the second item.",
         "category":"miscellaneous",
-        "isFeatured":"1",
-        "inCart":"1",
+        "isFeatured":"2",
+        "inCart":"2",
         "imgDirectory":"images/image.jpg",
         "price": 10.99
       }, 
       
       {
-        "name": "Item 1",
-        "description": "This is the first item.",
+        "name": "Item 3",
+        "description": "This is the third item.",
         "category":"miscellaneous",
-        "isFeatured":"1",
+        "isFeatured":"3",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Item 4",
+        "description": "This is the fourth item.",
+        "category":"miscellaneous",
+        "isFeatured":"4",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Item 5",
+        "description": "This is the fifth item.",
+        "category":"miscellaneous",
+        "isFeatured":"5",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Clothing 1",
+        "description": "This is the first clothing item.",
+        "category":"clothing",
+        "isFeatured":"6",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Clothing 2",
+        "description": "This is the second clothing item.",
+        "category":"clothing",
+        "isFeatured":"7",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Clothing 3",
+        "description": "This is the third clothing item.",
+        "category":"clothing",
+        "isFeatured":"8",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Clothing 4",
+        "description": "This is the fourth clothing item.",
+        "category":"clothing",
+        "isFeatured":"9",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Clothing 5",
+        "description": "This is the fifth clothing item.",
+        "category":"clothing",
+        "isFeatured":"10",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Supplement 1",
+        "description": "This is the first supplement item.",
+        "category":"supplement",
+        "isFeatured":"11",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Supplement 2",
+        "description": "This is the second supplement item.",
+        "category":"supplement",
+        "isFeatured":"12",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Supplement 3",
+        "description": "This is the third supplement item.",
+        "category":"supplement",
+        "isFeatured":"13",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Supplement 4",
+        "description": "This is the fourth supplement item.",
+        "category":"supplement",
+        "isFeatured":"14",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Supplement 5",
+        "description": "This is the fifth supplement item.",
+        "category":"supplement",
+        "isFeatured":"15",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Equipment 1",
+        "description": "This is the first equipment item.",
+        "category":"equipment",
+        "isFeatured":"16",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Equipment 2",
+        "description": "This is the second equipment item.",
+        "category":"equipment",
+        "isFeatured":"17",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Equipment 3",
+        "description": "This is the third equipment item.",
+        "category":"equipment",
+        "isFeatured":"18",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Equipment 4",
+        "description": "This is the fourth equipment item.",
+        "category":"equipment",
+        "isFeatured":"19",
+        "inCart":"",
+        "imgDirectory":"images/image.jpg",
+        "price": 10.99
+      },
+
+      {
+        "name": "Equipment 5",
+        "description": "This is the fifth equipment item.",
+        "category":"equipment",
+        "isFeatured":"20",
         "inCart":"",
         "imgDirectory":"images/image.jpg",
         "price": 10.99
