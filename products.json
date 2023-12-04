@@ -12,8 +12,8 @@
         "name": "Item 2",
         "description": "This is the second item.",
         "category":"miscellaneous",
-        "isFeatured":"2",
-        "inCart":"2",
+        "isFeatured":"1",
+        "inCart":"",
         "imgDirectory":"images/image.jpg",
         "price": 10.99
       }, 
@@ -22,7 +22,7 @@
         "name": "Item 3",
         "description": "This is the third item.",
         "category":"miscellaneous",
-        "isFeatured":"3",
+        "isFeatured":"1",
         "inCart":"",
         "imgDirectory":"images/image.jpg",
         "price": 10.99
@@ -32,7 +32,7 @@
         "name": "Item 4",
         "description": "This is the fourth item.",
         "category":"miscellaneous",
-        "isFeatured":"4",
+        "isFeatured":"",
         "inCart":"",
         "imgDirectory":"images/image.jpg",
         "price": 10.99
@@ -42,7 +42,7 @@
         "name": "Item 5",
         "description": "This is the fifth item.",
         "category":"miscellaneous",
-        "isFeatured":"5",
+        "isFeatured":"",
         "inCart":"",
         "imgDirectory":"images/image.jpg",
         "price": 10.99
@@ -52,9 +52,9 @@
         "name": "Clothing 1",
         "description": "This is the first clothing item.",
         "category":"clothing",
-        "isFeatured":"6",
+        "isFeatured":"1",
         "inCart":"",
-        "imgDirectory":"images/wander-fleur-fSN3Q_imqrA-unsplash.jpg",
+        "imgDirectory":"images/gym-clothes.jpg",
         "price": 15.99
       },
 
@@ -62,9 +62,9 @@
         "name": "Clothing 2",
         "description": "This is the second clothing item.",
         "category":"clothing",
-        "isFeatured":"7",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/wander-fleur-fSN3Q_imqrA-unsplash.jpg",
+        "imgDirectory":"images/gym-clothes.jpg",
         "price": 25.99
       },
 
@@ -72,9 +72,9 @@
         "name": "Clothing 3",
         "description": "This is the third clothing item.",
         "category":"clothing",
-        "isFeatured":"8",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/wander-fleur-fSN3Q_imqrA-unsplash.jpg",
+        "imgDirectory":"images/gym-clothes.jpg",
         "price": 20.99
       },
 
@@ -82,9 +82,9 @@
         "name": "Clothing 4",
         "description": "This is the fourth clothing item.",
         "category":"clothing",
-        "isFeatured":"9",
+        "isFeatured":"1",
         "inCart":"",
-        "imgDirectory":"images/wander-fleur-fSN3Q_imqrA-unsplash.jpg",
+        "imgDirectory":"images/gym-clothes.jpg",
         "price": 40.99
       },
 
@@ -92,9 +92,9 @@
         "name": "Clothing 5",
         "description": "This is the fifth clothing item.",
         "category":"clothing",
-        "isFeatured":"10",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/wander-fleur-fSN3Q_imqrA-unsplash.jpg",
+        "imgDirectory":"images/gym-clothes.jpg",
         "price": 33.99
       },
 
@@ -102,9 +102,9 @@
         "name": "Supplement 1",
         "description": "This is the first supplement item.",
         "category":"supplement",
-        "isFeatured":"11",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/nature-zen-sCsctFRyxag-unsplash.jpg",
+        "imgDirectory":"images/gym-supplement.jpg",
         "price": 12.99
       },
 
@@ -112,9 +112,9 @@
         "name": "Supplement 2",
         "description": "This is the second supplement item.",
         "category":"supplement",
-        "isFeatured":"12",
+        "isFeatured":"1",
         "inCart":"",
-        "imgDirectory":"images/nature-zen-sCsctFRyxag-unsplash.jpg",
+        "imgDirectory":"images/gym-supplement.jpg",
         "price": 34.99
       },
 
@@ -122,9 +122,9 @@
         "name": "Supplement 3",
         "description": "This is the third supplement item.",
         "category":"supplement",
-        "isFeatured":"13",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/nature-zen-sCsctFRyxag-unsplash.jpg",
+        "imgDirectory":"images/gym-supplement.jpg",
         "price": 16.99
       },
 
@@ -132,9 +132,9 @@
         "name": "Supplement 4",
         "description": "This is the fourth supplement item.",
         "category":"supplement",
-        "isFeatured":"14",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/nature-zen-sCsctFRyxag-unsplash.jpg",
+        "imgDirectory":"images/gym-supplement.jpg",
         "price": 18.99
       },
 
@@ -142,9 +142,9 @@
         "name": "Supplement 5",
         "description": "This is the fifth supplement item.",
         "category":"supplement",
-        "isFeatured":"15",
+        "isFeatured":"1",
         "inCart":"",
-        "imgDirectory":"images/nature-zen-sCsctFRyxag-unsplash.jpg",
+        "imgDirectory":"images/gym-supplement.jpg",
         "price": 24.99
       },
 
@@ -152,9 +152,9 @@
         "name": "Equipment 1",
         "description": "This is the first equipment item.",
         "category":"equipment",
-        "isFeatured":"16",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg",
+        "imgDirectory":"images/gym-equipment.jpg",
         "price": 30.99
       },
 
@@ -162,9 +162,9 @@
         "name": "Equipment 2",
         "description": "This is the second equipment item.",
         "category":"equipment",
-        "isFeatured":"17",
+        "isFeatured":"1",
         "inCart":"",
-        "imgDirectory":"images/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg",
+        "imgDirectory":"images/gym-equipment.jpg",
         "price": 100.99
       },
 
@@ -172,9 +172,9 @@
         "name": "Equipment 3",
         "description": "This is the third equipment item.",
         "category":"equipment",
-        "isFeatured":"18",
+        "isFeatured":"1",
         "inCart":"",
-        "imgDirectory":"images/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg",
+        "imgDirectory":"images/gym-equipment.jpg",
         "price": 45.99
       },
 
@@ -182,9 +182,9 @@
         "name": "Equipment 4",
         "description": "This is the fourth equipment item.",
         "category":"equipment",
-        "isFeatured":"19",
+        "isFeatured":"0",
         "inCart":"",
-        "imgDirectory":"images/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg",
+        "imgDirectory":"images/gym-equipment.jpg",
         "price": 211.99
       },
 
@@ -192,9 +192,9 @@
         "name": "Equipment 5",
         "description": "This is the fifth equipment item.",
         "category":"equipment",
-        "isFeatured":"20",
+        "isFeatured":"",
         "inCart":"",
-        "imgDirectory":"images/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg",
+        "imgDirectory":"images/gym-equipment.jpg",
         "price": 113.99
       }
 
