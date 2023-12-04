@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Create a new div element
-    var navbar = document.createElement("div");
-    var parentElement = document.getElementById("navbar")
+document.addEventListener('DOMContentLoaded', function () {
+  // Create a new div element
+  var navbar = document.createElement('div');
+  var parentElement = document.getElementById('navbar');
 
-    // Add HTML content to the div
-    navbar.innerHTML = `      
+  // Add HTML content to the div
+  navbar.innerHTML = `      
         <img id="logo" src="images/logo.png" width="200" height="150" />
         <ul class="main-nav">
             <li>
@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", function() {
         </ul>
     `;
 
-    parentElement.appendChild(navbar);
-})
+  parentElement.appendChild(navbar);
+});

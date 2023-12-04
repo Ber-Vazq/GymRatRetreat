@@ -1,6 +1,5 @@
 function submitForm() {
-    var query = document.getElementById("query").value;
+  var query = document.getElementById('query').value;
 
-    window.location.href = "search.html"
-
+  window.location.href = 'search.html';
 }

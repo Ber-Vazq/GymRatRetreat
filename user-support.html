@@ -9,44 +9,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
-      rel="stylesheet"/>
-   
-    <!--CSS LINK-->
-    <link rel="stylesheet" href="./stylesheets/index.css">
-    <link rel="stylesheet" href="./stylesheets/navbar.css">
-    <link rel="stylesheet" href="./stylesheets/customer-support.css">
+      rel="stylesheet"
+    />
 
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link rel="stylesheet" href="./stylesheets/customer-support.css" />
   </head>
 
-    <body>
+  <body>
+    <header>
+      <h1
+        id="navbar"
+        style="text-align: center; padding: 50px; font-size: 40px"
+      >
+        Customer Support
+      </h1>
+    </header>
 
-        <header id="navbar"></header>
+    <div id="issueList">
+      <label for="category-filter">Your Issue: </label>
+      <select id="category-filter">
+        <option value="site">Site</option>
+        <option value="shipping">Shipping</option>
+        <option value="invoices">Invoices</option>
+        <option value="products">Products</option>
+        <option value="support">Customer Support</option>
+        <option value="other">Other</option>
+      </select>
+      <br />
+      <textarea id="issueInfo"></textarea>
+      <br />
+      <button id="requestBtn">Submit</button>
+    </div>
 
-        <h1 style="text-align: center;">Customer Support</h1>
-
-      <div id="issueList">
-            <label for="category-filter">Your Issue: </label>
-            <select id="category-filter">
-            <option value="site">Site</option>
-            <option value="shipping">Shipping</option>
-            <option value="invoices">Invoices</option>
-            <option value="products">Products</option>
-            <option value="support">Customer Support</option>
-            <option value="other">Other</option>
-
-            </select>
-            <br>
-            <textarea id="issueInfo"></textarea>
-            <br>
-            <button id="requestBtn">Submit</button>
-        </div>
-        
-        <footer style ="text-align: center;">
-            <p>2023 no rights reserved, I haven't trademarked anything</p>
-        </footer>
-        <!-- jsscripts -->
-        <script src="components/navbar.js"></script>
-        <script src="scripts/searchbutton.js"></script>
-    </body>
-
+    <footer style="text-align: center">
+      <p>2023 no rights reserved, I haven't trademarked anything</p>
+    </footer>
+    <!-- jsscripts -->
+    <script src="scripts/searchbutton.js"></script>
+  </body>
 </html>

@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('products.json')
-      .then((response) => response.json())
-      .then((data) => {
-        const shoppingCart = document.getElementById('shopping-cart');
-  
-        let totalPrice = 0;
-  
-        data.forEach((item) => {
-          const cartListItem = document.createElement('div');
-          cartListItem.classList.add('cart-items');
-  
-          cartListItem.innerHTML = `
+  fetch('products.json')
+    .then((response) => response.json())
+    .then((data) => {
+      const shoppingCart = document.getElementById('shopping-cart');
+
+      let totalPrice = 0;
+
+      data.forEach((item) => {
+        const cartListItem = document.createElement('div');
+        cartListItem.classList.add('cart-items');
+
+        cartListItem.innerHTML = `
               <div class="image-box">
                   <img src="${item.imgDirectory}" style="height: 120px;">
               </div>
@@ -27,22 +27,21 @@ document.addEventListener('DOMContentLoaded', function () {
                   <u>Remove</u><br>
               </div>
             `;
-  
-          if (item.inCart == 1) {
-            shoppingCart.appendChild(cartListItem);
-            totalPrice += parseFloat(item.price);
-          }
-        });
-  
-        let totalDiv = document.getElementById('total-div');
-        if (!totalDiv) {
-          totalDiv = document.createElement('div');
-          totalDiv.id = 'total-div';
-          document.body.appendChild(totalDiv);
+
+        if (item.inCart == 1) {
+          shoppingCart.appendChild(cartListItem);
+          totalPrice += parseFloat(item.price);
         }
-  
-        totalDiv.textContent = `Total: $${totalPrice.toFixed(2)}`;
-      })
-      .catch((error) => console.error('Error fetching data:', error));
-  });
-  
+      });
+
+      let totalDiv = document.getElementById('total-div');
+      if (!totalDiv) {
+        totalDiv = document.createElement('div');
+        totalDiv.id = 'total-div';
+        document.body.appendChild(totalDiv);
+      }
+
+      totalDiv.textContent = `Total: $${totalPrice.toFixed(2)}`;
+    })
+    .catch((error) => console.error('Error fetching data:', error));
+});

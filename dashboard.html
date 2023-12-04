@@ -9,46 +9,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
-      rel="stylesheet"/>
-   
+      rel="stylesheet"
+    />
+
     <!--CSS LINK-->
-    <link rel="stylesheet" href="./stylesheets/index.css">
-    <link rel="stylesheet" href="./stylesheets/navbar.css">
-    <link rel="stylesheet" href="./stylesheets/dashboard.css">
-
-
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link rel="stylesheet" href="./stylesheets/dashboard.css" />
   </head>
 
-    <body>
-        <header id="navbar"></header>
-        
-        <div id="account-container">
-            <h2 id="account-header">Welcome to Your Account</h2>
-            <div class="user-info">
-              <p><strong>Username:</strong> JohnDoe123</p>
-              <p><strong>Email:</strong> johndoe@example.com</p>
-      
-            </div>
-            <div class="account-actions">
-              <a id="support-button" href="user-support.html">Support</a>
-              <a id ="payment-button" href="payment-info.html">Payment Info</a>
-              <a id ="logout-button" href="#">Logout</a>
-            </div>
-        </div>
+  <body>
+    <header id="navbar"></header>
 
-        <div style="text-align: center;"> 
-        <button id="admin-toggle">Switch To Admin Mode</button>
-        </div>
+    <div id="account-container">
+      <h2 id="account-header">Welcome to Your Account</h2>
+      <div class="user-info">
+        <p><strong>Username:</strong> JohnDoe123</p>
+        <p><strong>Email:</strong> johndoe@example.com</p>
+      </div>
+      <div class="account-actions">
+        <a id="support-button" href="user-support.html">Support</a>
+        <a id="payment-button" href="payment-info.html">Payment Info</a>
+        <a id="new-item" href="payment-info.html">Add New Item</a>
 
-        <footer style ="text-align: center;">
-            <p>2023 no rights reserved, I haven't trademarked anything</p>
-        </footer>
-        <!-- jsscripts -->
-        <script src="components/navbar.js"></script>
-        <script src="scripts/usertoadmin.js"></script>
-        <script src="scripts/searchbutton.js"></script>
+        <a id="logout-button" href="#">Logout</a>
+      </div>
+    </div>
 
-    </body>
+    <div style="text-align: center">
+      <button id="admin-toggle">Switch To Admin Mode</button>
+    </div>
 
-
+    <footer style="text-align: center">
+      <p>2023 no rights reserved, I haven't trademarked anything</p>
+    </footer>
+    <!-- jsscripts -->
+    <script src="components/navbar.js"></script>
+    <script src="scripts/usertoadmin.js"></script>
+    <script src="scripts/searchbutton.js"></script>
+  </body>
 </html>

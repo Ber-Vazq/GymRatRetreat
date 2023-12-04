@@ -23,7 +23,7 @@
         "description": "This is the first item.",
         "category":"miscellaneous",
         "isFeatured":"1",
-        "inCart":"0",
+        "inCart":"",
         "imgDirectory":"images/image.jpg",
         "price": 10.99
       }

@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="view" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the Retreat</title>
+
+    <!--FONT TIME-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link rel="stylesheet" href="./stylesheets/search.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1
+        id="navbar"
+        style="text-align: center; padding: 50px; font-size: 40px"
+      >
+        Respond To Tickets
+      </h1>
+    </header>
+
+    <div class="center">
+      <div id="issueList">
+        <label for="category-filter">Sort-By Category: </label>
+        <select id="category-filter">
+          <option value="site">Site</option>
+          <option value="shipping">Shipping</option>
+          <option value="invoices">Invoices</option>
+          <option value="products">Products</option>
+          <option value="support">Customer Support</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <table id="search-table" class="display">
+        <thead>
+          <tr>
+            <th style="text-align: left">Support Tickets</th>
+            <th style="text-align: left"></th>
+          </tr>
+        </thead>
+
+        <tbody id="search-results">
+          <tr>
+            <td style="text-align: left; font-size: 15px">
+              This is an Example Issue Left by a made up user <br />
+            </td>
+
+            <td style="text-align: right; font-size: 15px; width: max-content">
+              <button class="default-button" data-open-modal>
+                Send Response
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: left; font-size: 15px">
+              This is an Example Issue Left by a made up user <br />
+            </td>
+
+            <td style="text-align: right; font-size: 15px; width: max-content">
+              <button class="default-button" data-open-modal>
+                Send Response
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: left; font-size: 15px">
+              This is an Example Issue Left by a made up user <br />
+            </td>
+
+            <td style="text-align: right; font-size: 15px; width: max-content">
+              <button class="default-button" data-open-modal>
+                Send Response
+              </button>
+            </td>
+          </tr>
+
+          <dialog data-modal>
+            <textarea placeholder="Response Field:"></textarea>
+            <button data-close-modal>Close</button>
+          </dialog>
+        </tbody>
+      </table>
+    </div>
+
+    <footer style="text-align: center">
+      <p>2023 no rights reserved, I haven't trademarked anything</p>
+    </footer>
+    <!-- jsscripts -->
+    <script src="scripts/searchbutton.js"></script>
+    <script>
+      const openButton = document.querySelector('[data-open-modal]');
+      const closeButton = document.querySelector('[data-close-modal]');
+      const modal = document.querySelector('[data-modal]');
+
+      openButton.addEventListener('click', () => {
+        modal.show();
+      });
+      closeButton.addEventListener('click', () => {
+        modal.close();
+      });
+    </script>
+  </body>
+</html>

@@ -9,55 +9,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
-      rel="stylesheet"/>
-   
-    <!--CSS LINK-->
-    <link rel="stylesheet" href="./stylesheets/index.css">
-    <link rel="stylesheet" href="./stylesheets/navbar.css">
-    <link rel="stylesheet" href="./stylesheets/checkout.css">
+      rel="stylesheet"
+    />
 
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link rel="stylesheet" href="./stylesheets/checkout.css" />
   </head>
 
-    <body>
+  <body>
+    <header class="header">
+      <h1>Checkout</h1>
+    </header>
 
-        <header class="header">
-            <h1>Checkout</h1>
-        </header>
-    
-    
-        <div class="checkout-body">
-            <div>
-                <h2>Shipping Address</h2><br>
-                <input placeholder="Type Address"></input><br>
-                
-                <h2>Payment Method</h2><br>
-                <input placeholder="Payment Method"></input><br>
-            </div>
-    
-            <div>
-    
-                <h2>Order Summary:</h2><br>
-                <h2>Subtotal: $#</h2><br>
-                <h2>Shipping and Handling: $#</h2><br>
-                <h2>Total: $#</h2>
-    
-            </div>
-            <div>
-    
-                <a href="cart.html">Go Back To Cart</a>
-                <a href="index.html">Complete Purchase</a>
-    
-            </div>
-        </div>
+    <div class="checkout-body">
+      <div>
+        <h2>Shipping Address</h2>
+        <br />
+        <input
+          style="padding: 10px; font-size: 17x"
+          placeholder="Address:"
+        /><br />
 
+        <h2>Payment Method</h2>
+        <br />
+        <input
+          style="padding: 10px; font-size: 17x"
+          placeholder="Payment Method:"
+        /><br />
+      </div>
 
-        
-        <footer style ="text-align: center;">
-            <p>2023 no rights reserved, I haven't trademarked anything</p>
-        </footer>
-        <!-- jsscripts -->
-        <script src="components/navbar.js"></script>
-        <script src="scripts/searchbutton.js"></script>
-    </body>
+      <div>
+        <h2>Order Summary:</h2>
+        <br />
+        <h2>Subtotal: $#</h2>
+        <br />
+        <h2>Shipping and Handling: $#</h2>
+        <br />
+        <h2>Total: $#</h2>
+      </div>
+      <div>
+        <a href="cart.html">Go Back To Cart</a>
+        <a href="index.html">Complete Purchase</a>
+      </div>
+    </div>
 
+    <footer style="text-align: center">
+      <p>2023 no rights reserved, I haven't trademarked anything</p>
+    </footer>
+    <!-- jsscripts -->
+    <script src="components/navbar.js"></script>
+    <script src="scripts/searchbutton.js"></script>
+  </body>
 </html>

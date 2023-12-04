@@ -37,7 +37,7 @@
         </select>
       </div>
 
-      <table id="search-results" class="display">
+      <table id="search-table" class="display">
         <thead>
           <tr>
             <th></th>
@@ -46,20 +46,7 @@
             <th>Category</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td><img src="images/image.jpg" /></td>
-            <td>19.99</td>
-            <td>Fitness Stuff</td>
-            <td>Supplements</td>
-          </tr>
-          <tr>
-            <td><img src="images/image.jpg" /></td>
-            <td>15.99</td>
-            <td>Fitness Stuff</td>
-            <td>Clothing</td>
-          </tr>
-        </tbody>
+        <tbody id="search-results"></tbody>
       </table>
     </div>
 
@@ -67,20 +54,10 @@
       <p>2023 no rights reserved, I haven't trademarked anything</p>
     </footer>
     <!-- jsscripts -->
-    <script src="scripts/loadcart.js"></script>
+    <script src="scripts/loadsearch.js"></script>
     <script src="components/navbar.js"></script>
     <script src="scripts/searchbutton.js"></script>
 
-    <script>
-      $(document).ready(function () {
-        var dataTable = new DataTable('#search-results');
-
-        $('#category-filter').on('change', function () {
-          var selectedCategory = $(this).val();
-
-          dataTable.column(3).search(selectedCategory).draw();
-        });
-      });
-    </script>
+    <script></script>
   </body>
 </html>

@@ -24,35 +24,37 @@
         id="navbar"
         style="text-align: center; padding: 50px; font-size: 40px"
       >
-        Save Payment Info
+        Item Creation
       </h1>
     </header>
 
     <form id="creditCardForm">
-      <input
-        type="text"
-        id="cardholderName"
-        placeholder="Cardholder Name"
-        required
-      />
+      <input type="text" id="productName" placeholder="Product Name" required />
 
-      <input type="text" id="cardNumber" placeholder="Card Number" required />
+      <input type="text" id="price" placeholder="Pricing" required />
 
-      <input
-        type="text"
-        id="expiryDate"
-        placeholder="Expiry Date (MM/YY)"
-        required
-      />
+      <select id="category-filter">
+        <option value="">Select Category:</option>
+        <option value="clothing">Clothing</option>
+        <option value="supplement">Supplement</option>
+        <option value="equipment">Equipment</option>
+      </select>
+      <br />
 
-      <input type="text" id="cvv" placeholder="CVV" required />
+      <label
+        class="default-button"
+        style="font-size: 13px; padding: 8px"
+        for="imageUpload"
+        >Image Upload</label
+      ><br />
+      <input style="display: none" type="file" id="imageUpload" required />
 
       <button
         class="default-button"
         style="width: 40%; padding: 10px; font-size: 14px"
         type="submit"
       >
-        Save Payment Info
+        Create Item Listing
       </button>
     </form>
 
@@ -60,6 +62,7 @@
       <p>2023 no rights reserved, I haven't trademarked anything</p>
     </footer>
     <!-- jsscripts -->
+    <script src="scripts/loadProducts.js"></script>
     <script src="scripts/searchbutton.js"></script>
   </body>
 </html>

@@ -9,38 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
-      rel="stylesheet"/>
-   
-    <!--CSS LINK-->
-    <link rel="stylesheet" href="./stylesheets/index.css">
-    <link rel="stylesheet" href="./stylesheets/navbar.css">
-    <link rel="stylesheet" href="./stylesheets/front-page.css">
+      rel="stylesheet"
+    />
 
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link rel="stylesheet" href="./stylesheets/front-page.css" />
   </head>
 
-    <body>
+  <body>
+    <header id="navbar"></header>
 
-        <header id="navbar"></header>
+    <h1 style="text-align: center">Featured Items</h1>
 
-        <h1 style="text-align: center;">Featured Items</h1>
+    <div class="scroll-container" id="featured-items"></div>
 
-        <div class="scroll-container" id="featured-items"></div>
+    <h1 style="text-align: center">Shopping Cart</h1>
 
-        <h1 style="text-align: center;">Shopping Cart</h1>
+    <div class="scroll-container" id="shopping-cart"></div>
 
-        <div class="scroll-container" id="shopping-cart"></div>
+    <div style="text-align: center; margin: 30px">
+      <a href="checkout.html" class="default-button">Checkout Items</a>
+    </div>
 
-        <div style ="text-align:center; margin: 30px">
-            <a href="checkout.html"class="default-button">Checkout Items</a>
-        </div>
-        
-        <footer style ="text-align: center;">
-            <p>2023 no rights reserved, I haven't trademarked anything</p>
-        </footer>
-        <!-- jsscripts -->
-        <script src="scripts/loadProducts.js"></script>
-        <script src="components/navbar.js"></script>
-        <script src="scripts/searchbutton.js"></script>
-    </body>
-
+    <footer style="text-align: center">
+      <p>2023 no rights reserved, I haven't trademarked anything</p>
+    </footer>
+    <!-- jsscripts -->
+    <script src="scripts/loadProducts.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="scripts/searchbutton.js"></script>
+  </body>
 </html>

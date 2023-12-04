@@ -1,0 +1,17 @@
+form {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+#creditCardForm input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+
+
+button:hover {
+    background-color: #45a049;
+}
