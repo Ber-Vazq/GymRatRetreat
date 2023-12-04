@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
             </li>
             <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
             <li><a href="dashboard.html">Dashboard</a></li>
             <li><a href="login.html">Login/Signup</a></li>
-            <li><a href="cart.html">Cart</a></li>
         </ul>
     `;
 

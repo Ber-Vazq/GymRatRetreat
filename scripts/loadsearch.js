@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
         searchResults.appendChild(tableItem);
       });
 
+      initializeDataTable();
+
       searchResults.addEventListener('click', function (event) {
         const clickedRow = event.target.closest('tr');
 
@@ -69,3 +71,14 @@ document.addEventListener('DOMContentLoaded', function () {
       .catch((error) => console.error('Error fetching HTML content:', error));
   }
 });
+
+function initializeDataTable() {
+  var dataTable = new DataTable('#search-table');
+
+  // Use event delegation for dynamically added elements
+  $(document).on('change', '#category-filter', function () {
+      var selectedCategory = $(this).val();
+
+      dataTable.column(3).search(selectedCategory).draw();
+  });
+}
