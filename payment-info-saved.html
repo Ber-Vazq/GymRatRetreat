@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="view" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <!--FONT TIME-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
+    <link rel="stylesheet" href="./stylesheets/customer-support.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1
+        id="navbar"
+        style="text-align: center; padding: 50px; font-size: 40px"
+      >
+        Customer Support
+      </h1>
+    </header>
+
+    <div style="text-align: center">
+        <h1>Your payment information has been saved!</h1>
+        <button onclick="goToDashboard()">Go back to Dashboard</button>
+    </div>
+
+    <footer style="text-align: center">
+      <p>2023 no rights reserved, I haven't trademarked anything</p>
+    </footer>
+    <!-- jsscripts -->
+    <script src="scripts/searchbutton.js"></script>
+    <script>
+        function goToDashboard() {
+            window.location.href = 'dashboard.html';
+        }
+    </script>
+  </body>
+</html>
