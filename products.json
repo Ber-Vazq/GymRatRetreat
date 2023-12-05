@@ -3,7 +3,7 @@
       "name": "Miscellaneous 1",
       "description": "This is the first miscellaneous item.",
       "category": "miscellaneous",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "1",
       "imgDirectory": "images/miscellaneous.jpg",
       "price": 10.99
@@ -102,7 +102,7 @@
       "name": "Clothing 2",
       "description": "This is the second clothing item.",
       "category": "clothing",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "",
       "imgDirectory": "images/clothing.jpg",
       "price": 65.99
@@ -192,7 +192,7 @@
       "name": "Supplement 2",
       "description": "This is the second supplement item.",
       "category": "supplement",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "",
       "imgDirectory": "images/supplement.jpg",
       "price": 70.99
@@ -264,7 +264,7 @@
       "name": "Equipment 2",
       "description": "This is the second equipment item.",
       "category": "equipment",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "",
       "imgDirectory": "images/equipment.jpg",
       "price": 65.99
@@ -273,7 +273,7 @@
       "name": "Equipment 3",
       "description": "This is the third equipment item.",
       "category": "equipment",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "",
       "imgDirectory": "images/equipment.jpg",
       "price": 70.99
@@ -282,7 +282,7 @@
       "name": "Equipment 4",
       "description": "This is the fourth equipment item.",
       "category": "equipment",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "",
       "imgDirectory": "images/equipment.jpg",
       "price": 75.99
@@ -301,7 +301,7 @@
       "description": "This is the sixth equipment item.",
       "category": "equipment",
       "isFeatured": "",
-      "inCart": "",
+      "inCart": "1",
       "imgDirectory": "images/equipment.jpg",
       "price": 85.99
   },
@@ -310,7 +310,7 @@
       "description": "This is the seventh equipment item.",
       "category": "equipment",
       "isFeatured": "",
-      "inCart": "",
+      "inCart": "1",
       "imgDirectory": "images/equipment.jpg",
       "price": 90.99
   },
@@ -345,7 +345,7 @@
       "name": "Miscellaneous 11",
       "description": "This is the eleventh miscellaneous item.",
       "category": "miscellaneous",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "",
       "imgDirectory": "images/miscellaneous.jpg",
       "price": 65.99
@@ -354,8 +354,8 @@
       "name": "Miscellaneous 12",
       "description": "This is the twelfth miscellaneous item.",
       "category": "miscellaneous",
-      "isFeatured": "1",
-      "inCart": "",
+      "isFeatured": "",
+      "inCart": "1",
       "imgDirectory": "images/miscellaneous.jpg",
       "price": 70.99
   },
@@ -363,7 +363,7 @@
       "name": "Miscellaneous 13",
       "description": "This is the thirteenth miscellaneous item.",
       "category": "miscellaneous",
-      "isFeatured": "1",
+      "isFeatured": "",
       "inCart": "",
       "imgDirectory": "images/miscellaneous.jpg",
       "price": 75.99
@@ -436,7 +436,7 @@
         "name": "Clothing 11",
         "description": "This is the eleventh clothing item.",
         "category": "clothing",
-        "isFeatured": "1",
+        "isFeatured": "",
         "inCart": "",
         "imgDirectory": "images/clothing.jpg",
         "price": 70.99
@@ -445,7 +445,7 @@
         "name": "Clothing 12",
         "description": "This is the twelfth clothing item.",
         "category": "clothing",
-        "isFeatured": "1",
+        "isFeatured": "",
         "inCart": "",
         "imgDirectory": "images/clothing.jpg",
         "price": 75.99
@@ -454,7 +454,7 @@
         "name": "Clothing 13",
         "description": "This is the thirteenth clothing item.",
         "category": "clothing",
-        "isFeatured": "1",
+        "isFeatured": "",
         "inCart": "",
         "imgDirectory": "images/clothing.jpg",
         "price": 80.99
