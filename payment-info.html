@@ -61,5 +61,11 @@
     </footer>
     <!-- jsscripts -->
     <script src="scripts/searchbutton.js"></script>
+    <script>
+      document.getElementById('creditCardForm').addEventListener('submit', function (event) {
+          event.preventDefault();
+          window.location.href = 'payment-info-saved.html';
+      });
+  </script>
   </body>
 </html>
