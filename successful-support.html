@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="view" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to the Retreat</title>
+    <title>Dashboard</title>
 
     <!--FONT TIME-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,20 +28,9 @@
       </h1>
     </header>
 
-    <div id="issueList">
-      <label for="category-filter">Your Issue: </label>
-      <select id="category-filter">
-        <option value="site">Site</option>
-        <option value="shipping">Shipping</option>
-        <option value="invoices">Invoices</option>
-        <option value="products">Products</option>
-        <option value="support">Customer Support</option>
-        <option value="other">Other</option>
-      </select>
-      <br />
-      <textarea id="issueInfo"></textarea>
-      <br />
-      <button id="requestBtn" onclick="submitForm()">Submit</button>
+    <div style="text-align: center">
+        <h1>Your request has been submitted successfully!</h1>
+        <button onclick="goToDashboard()">Go back to Dashboard</button>
     </div>
 
     <footer style="text-align: center">
@@ -50,9 +39,9 @@
     <!-- jsscripts -->
     <script src="scripts/searchbutton.js"></script>
     <script>
-      function submitForm() {
-          window.location.href = 'successful-support.html';
-      }
-  </script>
+        function goToDashboard() {
+            window.location.href = 'dashboard.html';
+        }
+    </script>
   </body>
 </html>
